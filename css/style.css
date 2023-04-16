@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 20px;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(70deg, #FFFF00, #008000);
+}
+
+.container {
+  margin: 0 auto;
+  padding-top: 10vh;
+  width: 70vw;
+  height: 70vh;
+}
+
+.title {
+  width: 100%;
+  padding-top: 5%;
+  color: #000000;
+  text-align: center;
+}
+
+.form-choice {
+  margin: 0 auto;
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 35px 10px #A9A9A9;
+  border-radius: 10px;
+  background-color: #9ACD32;
+}
+
+.box {
+  position: relative;
+  top: -10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10%;
+  padding: 5%;
+}
+
+.text {
+  font-size: 1.2em;
+  margin: 0 0 5%;
+}
+
+.select,
+.input {
+  padding: 5px;
+  width: 100%;
+  min-height: 30px;
+  font-size: 1.3em;
+  text-align: center;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  outline: none;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto 5%;
+  width: 120px;
+  height: 50px;
+  font-size: 1em;
+  font-weight: bold;
+  border: 2px solid #000000;
+  border-radius: 5px;
+}
+
+.select:hover,
+.input:hover,
+.btn:hover {
+  background-color: #D3D3D3;
+}
+
+.select:active,
+.input:active,
+.btn:active {
+  background-color: #A9A9A9;
+}
+
+.calendar {
+  margin: 0 auto;
+  margin-top: 10%;
+  width: 100%;
+  max-width: 500px;
+  border-collapse: collapse;
+}
+
+tr:first-child td {
+  font-size: 1.3em;
+}
+
+td {
+  font-size: 2em;
+  text-align: center;
+  border: 3px solid #000000;
+  background-color: #ffffff;
+}
+
+td:nth-child(6),
+td:nth-child(7) {
+  color: #ffffff;
+  background-color: #ff0000;
+}
